@@ -10,8 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0,9375rem;
-  padding-top: 3,125rem;
+  gap: .9375rem;
+  padding-top: 3.125rem;
 }
 
 .cabecalho .titulo {
@@ -28,20 +28,20 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin: 3,75rem 0;
+    margin: 3.75rem 0;
 }
 
 .lista-pokemons {
-    width: 310px;
-    height: 520px;
+    width: 19.375rem;
+    height: 32.5rem;
     position: relative;
 }
 
 .btn-seta {
     background-color: #FFF;
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 3.125rem;
     border: 0;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
@@ -64,8 +64,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    padding: 12px;
-    border-radius: 10px;
+    padding: .75rem;
+    border-radius: .625rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: opacity 0.3s ease-in-out;    
 }
@@ -92,21 +92,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding: .5rem .625rem;
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;
 }
 
 .cartao .informacoes .nome {
     color: #f1ecff;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .cartao .informacoes .vida {
     background-color: #333;
     color: #f1ecff;
-    padding: 6px 10px;
-    border-radius: 20px;
+    padding: .375rem .625rem;
+    border-radius: 1.25rem;
 }
 
 .cartao .container-imagem {
@@ -115,26 +115,26 @@ body {
 
 .cartao .imagem-pokemon {
     max-width: 100%;
-    max-height: 280px;
-    padding: 20px;
+    max-height: 17.5rem;
+    padding: 1.25rem;
 }
 
 .cartao .descricao {
     background: rgba(255, 255, 255, 0.8);
-    border-bottom-left-radius: 0,625rem;
-    border-bottom-right-radius:0,625rem;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius:0.625rem;
 }
 
 .cartao .descricao .titulo {
     background-color: #333;
     color: #f1ecff;
-    font-size: 0,9375rem;
-    padding: 0,75rem;
+    font-size: 0.9375rem;
+    padding: 0.75rem;
 }
 
 .cartao .descricao .texto {
-    font-size: 0,875rem;
-    padding: 0,75rem;
+    font-size: 0.875rem;
+    padding: 0.75rem;
     text-align: justify;
     max-height: 7,1875rem;
     overflow-y: auto;
