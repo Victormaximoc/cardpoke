@@ -10,8 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  padding-top: 50px;
+  gap: 0,9375rem;
+  padding-top: 3,125rem;
 }
 
 .cabecalho .titulo {
@@ -19,16 +19,16 @@ body {
 }
 
 .cabecalho .pokebola {
-    width: 25px;
-    height: 25px;
+    width: 3rem;
+    height: 3rem;
 }
 
 .pokemon-slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 60px 0;
+    gap: 5rem;
+    margin: 3,75rem 0;
 }
 
 .lista-pokemons {
@@ -121,21 +121,21 @@ body {
 
 .cartao .descricao {
     background: rgba(255, 255, 255, 0.8);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0,625rem;
+    border-bottom-right-radius:0,625rem;
 }
 
 .cartao .descricao .titulo {
     background-color: #333;
     color: #f1ecff;
-    font-size: 15px;
-    padding: 12px;
+    font-size: 0,9375rem;
+    padding: 0,75rem;
 }
 
 .cartao .descricao .texto {
-    font-size: 14px;
-    padding: 12px;
+    font-size: 0,875rem;
+    padding: 0,75rem;
     text-align: justify;
-    max-height: 115px;
+    max-height: 7,1875rem;
     overflow-y: auto;
 }
